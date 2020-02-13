@@ -1,0 +1,15 @@
+{
+  "name": "arc-example-tap",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "start": "npx sandbox",
+    "test": "NODE_ENV=testing QUIET=1 tap --reporter=terse"
+  },
+  "dependencies": {
+    "@architect/sandbox": "latest",
+    "@begin/data": "^1.2.0",
+    "tap": "^14.10.6",
+    "tiny-json-http": "^7.1.2"
+  }
+}
